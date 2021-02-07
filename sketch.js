@@ -49,6 +49,8 @@ function setup() {
   var cnvy = (windowHeight - height) / 2;
 
   cnv.position(cnvx, cnvy);
+  
+  frameRate(15);
 
   pacman = createSprite(275, 110, 1, 1);
   pacman.debug = true;
